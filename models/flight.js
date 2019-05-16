@@ -15,10 +15,10 @@ var flightSchema = new Schema({
   },
   departs: {
     type: Number,
-    default: function() {
-      let year = new Date().getFullYear();
-      parseInt(year + 1);
-    },
+    // default: function() {
+    //   let year = new Date().getFullYear();
+    //   parseInt(year + 1);
+    // },
   }, 
 });
 

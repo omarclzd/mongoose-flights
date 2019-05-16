@@ -23,8 +23,8 @@ function create(req, res) {
   var flight = new Flight(req.body);
   flight.save(function(err) {
     //one way to handle erros in express
-    if (err) return res.render('flights/new');
+    // if (err) return res.render('flights/new');
     console.log(flight);
-    res.redirect('/flights');
+     res.redirect('/flights');
   });
 }
