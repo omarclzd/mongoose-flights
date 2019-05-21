@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Mongoose Flights</title>
+<%- include('../partials/header') %>
 
-</head>
-  <body>
-    <h2>All Flights</h2>
-    <table>
+
+
+    <table id="list">
       <thead>
         <tr>
           <th>Airport</th>
@@ -32,5 +25,5 @@
       </tbody>
     </table>
     <a href="/flights/new">Add New Flight</a>
-</body>
-</html>
+
+    <%- include('../partials/footer') %>
